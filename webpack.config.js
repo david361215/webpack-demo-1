@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.[contenthash].js',
   },
+  devServer: {
+    contentBase: './dist',
+  },
   plugins: [new HtmlWebpackPlugin({
     title: 'XDML - 写代码啦',
     template: 'src/assets/index.html'
