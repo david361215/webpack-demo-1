@@ -1,4 +1,3 @@
 import x from './x.js'
 console.log(x)
-
-console.log('a')
+console.log('hi2')
