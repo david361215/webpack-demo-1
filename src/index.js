@@ -2,6 +2,7 @@ import x from './x.js'
 import jpg from './assets/stylus.jpg'
 
 // console.log(jpg)
+// aaa
 const div = document.getElementById('app')
 // div.innerHTML = `
 //    <img src="${jpg}">
